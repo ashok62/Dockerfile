@@ -10,3 +10,4 @@ EXPOSE 80
 
 RUN echo "/sbin/service httpd start" >> root/.bashrc
 
+Some changes
