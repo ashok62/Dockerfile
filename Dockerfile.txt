@@ -8,5 +8,6 @@ RUN echo "my sample server" >> /var/www/html/index.html
 RUN yum -y install php
 EXPOSE 80
 
+
 RUN echo "/sbin/service httpd start" >> root/.bashrc
 
